@@ -55,7 +55,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 
 		DrawString(0, 0, "動画を再生しています・・・", GetColor(255, 255, 255));
-		DrawString(0,20,"花火の動画",Getcolor(255,255,255))
+		DrawString(0,20,"花火の動画",Getcolor(255,255,255));
 
 		ScreenFlip();		//モニタのリフレッシュレートの速さで裏画面を再描画
 	}
